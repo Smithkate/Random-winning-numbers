@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="box">
+  <view class="title">中奖号码</view>
+  <view>生成的中奖号码为：</view>
+  <view wx:for="{{rand}}">{{item}}</view>
+</view>
+==================================
+<button type="primary" bindtap="newRand">生成新的彩票号码</button>
+<view class="footer">梁育桐 201923010114</view>
+  <view class="footer">移动互联网YYDS</view>
